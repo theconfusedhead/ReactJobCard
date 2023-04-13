@@ -5,14 +5,14 @@ import Footer from './footer';
 import CoverImage from './CoverImage'
 function App() {
   return (
-    <div className='main-box'>
-      <div className='Box'>
+  <div className='main-box'>
+    <div className='content-box'>
       <CoverImage/>
-    <Name/>
-    <Body/>
-    <Footer/>
-    </div>
-    </div>
+      <Name/>
+      <Body/>
+      <Footer/>
+   </div>
+  </div>
     
   );
 }

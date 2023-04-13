@@ -1,55 +1,115 @@
-.Box{
-  position: relative;
-  width: 40%;
-  margin: 0  auto;
-  /* padding: 1rem; */
-  background-color: #1A1B21;
-  color: white;
-  border-radius: 0.5rem;
+html,body{
+  margin: 0;padding: 0;
 }
 .main-box{
+  padding: 1em;
+  background-color: #23252C;
+}
+.content-box{
+  background: #1A1B21;
+}
+img{
   width: 100%;
-
-  margin: 0 auto;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  background-color:#23252C ;
+  border-radius: 0.5em 0.5em 0 0 ;
 }
 .header{
   text-align: center;
-  padding: 1rem;
 }
-.body{
-  padding: 1rem;
+.header h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
 }
-.remove{
-  padding: 0;
-  margin: 0;
-}
-.color{
-  color: #F3BF99;
-}
-.space{
-  margin: 0.5rem;
-}
-button{
-  width: 115px;
-  height: 34px;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-}
+.header p {
 
-.footer{
-  display: flex;
-  justify-content: center;
-  background-color: #161619;
-  border-radius: 0  0 0.5rem 0.5rem;
+  color: #F3BF99;
+  font-size: large;
+}
+.header a{
+  text-decoration: none;
+  margin-right: 0.5em;
+  padding: 0.3em 0.7em;
+  border-radius: 0.5em;
+ 
+  
 }
 .icon{
-  font-size: 2rem;
-  margin-right: 10px;
+  font-size: 1em;
 }
-.imgRes{
- width: 100%;
- border-radius: 1rem 1rem 0 0 ;
+.body{
+  padding: 1em;
+}
+.body h3{
+  color: #fff;
+  margin-bottom:0;
+}
+.body p{
+  color: #fff;
+}
+.footer{
+  background-color: #161619;
+  border-radius: 0 0 0.5em 0.5em;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer p{
+  color: #918E9B;
+  font-size: 1.5em;
+}
+.email{
+  background-color: #D1D5DB;
+  color: black;
+}
+.linkedin{
+  background-color: #5093E2;
+  color: white
+}
+
+@media screen and (min-width: 550px) {
+  .main-box{
+    padding: 2em;
+  }
+  .content-box{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 650px) {
+  .main-box{
+    padding: 2em;
+  }
+  .content-box{
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .main-box{
+    padding: 2em;
+  }
+  .content-box{
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .main-box{
+    padding: 2em;
+  }
+  .content-box{
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .main-box{
+    padding: 2em;
+  }
+  .content-box{
+    width: 30%;
+    margin: 0 auto;
+  }
 }
