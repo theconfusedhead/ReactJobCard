@@ -13,7 +13,7 @@ function App() {
     <>
     <div className='nav'>
     <button  onClick={HandleMode}>
-      Click for {mode? 'Light Mode' : 'Dark Mode'}
+      Click for {mode? 'Dark Mode' : 'Light Mode'}
     </button>
     </div>
   <div className='main-box'>
